@@ -34,3 +34,19 @@ From the WireGuard client:
 
 ```text
 ping -c 4 10.0.0.1
+
+## WireGuard → InstaSafe ZTNA Component Mapping
+
+| WireGuard Component | InstaSafe ZTNA Component |
+|---|---|
+| WireGuard Client | InstaSafe Agent |
+| WireGuard Server | InstaSafe Gateway |
+| WireGuard Tunnel | Secure ZTNA Tunnel |
+| WireGuard Keys | Certificates / Identity Credentials |
+
+### Explanation
+
+- **Client → Agent:** The WireGuard client initiates the secure connection. Similarly, the InstaSafe Agent runs on the user's endpoint and participates in secure access.
+- **Server → Gateway:** The WireGuard server receives and manages tunnel connections. Similarly, the InstaSafe Gateway handles secure network access.
+- **Tunnel → Secure ZTNA Tunnel:** WireGuard creates an encrypted tunnel between the client and server. ZTNA provides a secure communication path between the user endpoint and protected resources.
+- **Keys → Certificates / Identity Credentials:** WireGuard uses cryptographic keys to authenticate and secure the tunnel. ZTNA uses certificates and identity credentials to establish trusted access.
