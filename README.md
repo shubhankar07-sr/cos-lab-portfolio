@@ -50,4 +50,33 @@ support operations, incident response, and change management.
 - Prometheus
 
 ## Repository Structure
-...
+
+cogs-lab-portfolio/
+├── README.md
+├── module-1-networking/
+│   ├── lab1-1-findings.md
+│   ├── lab1-2-findings.md
+│   └── lab1-3-findings.md
+├── module-2-identity/
+│   ├── lab2-1-findings.md
+│   ├── lab2-2-findings.md
+│   └── lab2-3-findings.md
+├── module-3-monitoring/
+│   ├── lab3-1-findings.md
+│   └── lab3-2-findings.md
+├── module-4-operations/
+│   ├── handovers/
+│   │   └── handover-2026-04-08-1800.md
+│   └── pirs/
+│       └── PIR-2026-04-08-MFA-Bulk-Failure.md
+├── module-5-incident/
+│   ├── lab5-1-findings.md
+│   ├── lab5-2-findings.md
+│   ├── changes/
+│   │   └── CHANGE-001-TLS-Upgrade.md
+│   └── pirs/
+│       └── PIR-2026-06-01-Nginx-Crash.md
+├── capstone/
+│   └── lab-capstone-architecture.md
+└── screenshots/
+
